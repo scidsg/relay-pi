@@ -18,8 +18,8 @@ If you didn't know, your Raspberry Pi doesn't come with an operating system. Don
 
 Like a Macbook runs MacOS, and a Dell runs Windows, a Raspberry Pi runs Linux, which comes in many different flavors depending on your needs. Since we're using a Raspberry Pi, we'll use Raspberry Pi OS (64-bit), an operating system made just for the Pi. The Imager installs the operating system onto your microSD card, where we'll set up Hush Line. Download it from https://www.raspberrypi.com/software/.
 
-<img src="../img/1-rpi-imager.png">
-<img src="../img/2-rpi-imager.png">
+<img src="img/1-rpi-imager.png">
+<img src="img/2-rpi-imager.png">
 
 ### Prep Your Card
 
@@ -28,7 +28,7 @@ Open the Raspberry Pi Imager and click `Choose OS > Raspberry Pi OS (other) > Ra
 
 Insert your microSD card into your computer, and then click `Choose Storage` and select your card.
 
-<img src="../img/19-rpi-imager.png">
+<img src="img/19-rpi-imager.png">
 
 Before clicking Write, click on the Settings gear in the bottom right of the window. Configure the following settings:
 
@@ -38,7 +38,7 @@ Before clicking Write, click on the Settings gear in the bottom right of the win
 - Set a strong password
 - Add wifi settings
 
-<img src="../img/20-advanced.png">
+<img src="img/20-advanced.png">
 
 ### Boot up and log in to Your Pi
 
@@ -54,7 +54,7 @@ On a Mac, open Spotlight search by pressing CMD + Space. Enter "Terminal" and se
 
 Enter `ssh operator@pirelay.local`, and when prompted, enter the password you created in the second step.
 
-<img src="../img/21-terminal-login.png">
+<img src="img/21-terminal-login.png">
 
 #### 5. Update your system
 
@@ -62,7 +62,7 @@ The last thing we need to do is to update our system. First, we'll give ourselve
 
 Enter `sudo su`, then `apt update && apt -y dist-upgrade && apt -y autoremove`.
 
-<img src="../img/21-update.png">
+<img src="img/21-update.png">
 
 🎉 That's it, you're ready to get started with Raspberry Pi!
 
